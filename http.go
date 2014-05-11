@@ -1,4 +1,4 @@
-package guestbook
+package home
 
 import (
 	"html/template"
@@ -16,12 +16,6 @@ type User struct {
 
 func init() {
 	http.HandleFunc("/", root)
-}
-
-// guestbookKey returns the key used for all guestbook entries.
-func guestbookKey(c appengine.Context) *datastore.Key {
-	// The string "default_guestbook" here could be varied to have multiple guestbooks.
-	return datastore.NewKey(c, "Guestbook", "default_guestbook", 0, nil)
 }
 
 func root(w http.ResponseWriter, r *http.Request) {

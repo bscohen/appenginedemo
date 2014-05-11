@@ -4,5 +4,11 @@ runtime: go
 api_version: go1
 
 handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /scripts
+  static_dir: scripts
+
 - url: /.*
   script: _go_app

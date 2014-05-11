@@ -1,0 +1,9 @@
+#demo-square {
+	background-color: blue;
+	height: 300px;
+	width: 300px;
+}
+
+#demo-square.active {
+	background-color: red;
+}

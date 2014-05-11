@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Brian's Book Maps</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="titlebar">Brian's Book Maps</div>
+      <div id="navbar">
+        <ul>
+          <li class="navbar-field"><a href="home">Home</a></li>
+          <li class="navbar-field"><a href="javascript">JavaScript</a></li>
+          <li class="navbar-field"><a href="datastore">Datastore</a></li>
+          <li class="navbar-field"><a href="login">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      {{template "content" .}}
+    </div>
+    <div id="footer">
+      <div id="contact-info">
+        <ul>
+          <li>
+            <span class="contact-field">Name</span>
+            <span class="contact-value">Brian</span>
+          </li>
+          <li>
+            <span class="contact-field">Email</span>
+            <span class="contact-value">brian@email.com</span>
+          </li>
+          <li>
+            <span class="contact-field">Cell</span>
+            <span class="contact-value">999-999-9999</span>
+          </li>
+          <li>
+            <span class="contact-field">Address</span>
+            <span class="contact-value">1234 5th St Los Angeles, CA. 90210</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+    {{template "contentstyle" .}}
+  </body>
+</html>

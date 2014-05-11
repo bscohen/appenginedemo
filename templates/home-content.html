@@ -1,0 +1,27 @@
+{{define "content"}}
+	<div class="logged-in-greeting">
+	  {{if .LoggedIn}}
+	  Welcome {{.Email}}
+	  {{else}}
+	  Not Signed In
+	  {{end}}
+	</div>
+	<div id="content-columns">
+		<div class="content-column">
+			<div class="content-column-title">Pride and Prejudice</div>
+			<div class="content-column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, dolore, optio, magni, doloremque iusto natus animi voluptatibus totam autem eaque temporibus delectus dignissimos quia soluta necessitatibus asperiores dicta. Explicabo, asperiores provident aliquid laborum quis sit nisi? Nesciunt, vel, illum voluptatibus officiis unde accusamus accusantium. Quod, cupiditate magni odit distinctio fugiat impedit aperiam labore numquam eaque earum aliquid incidunt officia perspiciatis. Eum maxime quidem voluptatibus fugiat nihil! Animi, tempora, illo, enim voluptates ipsum velit sequi fugit explicabo aspernatur neque sit consequuntur voluptas dolorum perspiciatis unde odio quam! Numquam, accusamus, tempore vero voluptas a vel culpa expedita quasi quidem perspiciatis excepturi beatae asperiores inventore tempora sint odio vitae facilis ducimus incidunt non quia ipsum molestias fugit perferendis rem earum modi mollitia porro qui deserunt eum nisi sunt.</div>
+		</div>
+		<div class="content-column">
+			<div class="content-column-title">Candide</div>
+			<div class="content-column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, amet, incidunt, in, ipsum dolor veritatis illo atque quae perferendis doloremque modi aliquid ipsam cupiditate non fugit omnis laboriosam sapiente iste et debitis tempore perspiciatis voluptates quia placeat itaque odio tempora quo praesentium eum unde ab facere animi aut. Eveniet, molestias, dolorem id soluta earum necessitatibus alias sapiente aliquam? Sit quis unde cupiditate ab odio id similique qui fugiat aspernatur quibusdam. Eum, excepturi, corrupti accusamus impedit tempore aliquam aut voluptatibus unde beatae accusantium delectus cumque fugit assumenda velit dolorum vel qui ullam! Porro, id laboriosam atque repellat optio reprehenderit. Molestias, ea, beatae quas et deserunt aspernatur libero asperiores sint neque iste dolore doloremque quidem vel totam repellat. Tempora, accusantium, veritatis, cupiditate, sapiente dolor sequi odit culpa sit totam non aperiam ipsum voluptas id doloribus asperiores architecto porro nisi doloremque aliquam soluta dolorum. Sequi, iusto expedita impedit quas consectetur reprehenderit quaerat earum!</div>
+		</div>
+		<div class="content-column">
+			<div class="content-column-title">The Catcher in the Rye</div>
+			<div class="content-column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, laudantium, nihil, quos exercitationem earum eos beatae excepturi quam in nobis ut aspernatur sed maxime aliquam quas unde impedit labore ea officia dicta. Eos, distinctio minima esse aspernatur doloribus commodi cumque nobis ab placeat perspiciatis? Optio, sequi, repellat, mollitia reiciendis tempora voluptatibus alias quis perferendis nesciunt excepturi cum iure aut cumque fugiat libero. Praesentium, corporis animi perferendis facilis autem veniam minus maiores voluptatum fugit quibusdam! Nam, sit, repudiandae, sed iusto at quam perspiciatis quia autem qui cumque dolorem fuga dolore provident neque quidem blanditiis natus voluptatem aliquam esse fugiat maxime error!</div>
+		</div>
+	</div>
+{{end}}
+
+{{define "contentstyle"}}
+	<link rel="stylesheet" type="text/css" href="stylesheets/home-content.css">
+{{end}}

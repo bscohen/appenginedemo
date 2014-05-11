@@ -1,0 +1,29 @@
+#content-columns {
+	text-align: center;
+}
+
+.content-column {
+	display: inline-block;
+	width: 300px;
+	height: 370px;
+	vertical-align: middle;
+	text-align: left;
+	margin: 0px 10px;
+}
+
+.content-column-title {
+	font-weight: bold;
+	font-family: serif;
+	font-size: 24px;
+	margin-bottom: 7px;
+}
+
+.content-column-text {
+	font-size: 12px;
+}
+
+.logged-in-greeting {
+	text-align: right;
+	margin: 0 0 20px 0px;
+	font-size: 14px;
+}
